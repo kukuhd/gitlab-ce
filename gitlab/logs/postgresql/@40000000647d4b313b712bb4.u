@@ -1,0 +1,44 @@
+2023-05-31_08:35:16.91519 LOG:  starting PostgreSQL 13.8 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit
+2023-05-31_08:35:16.91544 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2023-05-31_08:35:16.91697 LOG:  database system was shut down at 2023-05-31 08:35:15 GMT
+2023-05-31_08:35:16.91860 LOG:  database system is ready to accept connections
+2023-05-31_08:35:20.34426 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2023-05-31_08:35:20.34432 FATAL:  Peer authentication failed for user "gitlab"
+2023-05-31_08:35:20.34433 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2023-05-31_08:35:20.41826 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2023-05-31_08:35:20.41827 FATAL:  Peer authentication failed for user "gitlab"
+2023-05-31_08:35:20.41828 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2023-05-31_08:35:20.48831 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2023-05-31_08:35:20.48833 FATAL:  Peer authentication failed for user "gitlab"
+2023-05-31_08:35:20.48833 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2023-05-31_08:35:20.72421 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2023-05-31_08:35:20.72422 FATAL:  Peer authentication failed for user "gitlab"
+2023-05-31_08:35:20.72423 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2023-05-31_08:35:20.87477 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2023-05-31_08:35:20.87477 FATAL:  Peer authentication failed for user "gitlab"
+2023-05-31_08:35:20.87478 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2023-05-31_08:35:40.99838 ERROR:  relation "postgres_partitioned_tables" does not exist at character 85
+2023-05-31_08:35:40.99839 STATEMENT:  /*application:web,db_config_name:main*/ SELECT "postgres_partitioned_tables".* FROM "postgres_partitioned_tables" WHERE (identifier = concat(current_schema(), '.', 'audit_events')) LIMIT 1
+2023-05-31_08:35:40.99975 ERROR:  relation "postgres_partitioned_tables" does not exist at character 85
+2023-05-31_08:35:40.99975 STATEMENT:  /*application:web,db_config_name:main*/ SELECT "postgres_partitioned_tables".* FROM "postgres_partitioned_tables" WHERE (identifier = concat(current_schema(), '.', 'web_hook_logs')) LIMIT 1
+2023-05-31_08:35:41.00180 ERROR:  relation "postgres_partitioned_tables" does not exist at character 85
+2023-05-31_08:35:41.00181 STATEMENT:  /*application:web,db_config_name:main*/ SELECT "postgres_partitioned_tables".* FROM "postgres_partitioned_tables" WHERE (identifier = concat(current_schema(), '.', 'loose_foreign_keys_deleted_records')) LIMIT 1
+2023-05-31_08:35:41.00181 ERROR:  relation "postgres_partitioned_tables" does not exist at character 85
+2023-05-31_08:35:41.00181 STATEMENT:  /*application:web,db_config_name:main*/ SELECT "postgres_partitioned_tables".* FROM "postgres_partitioned_tables" WHERE (identifier = concat(current_schema(), '.', 'batched_background_migration_job_transition_logs')) LIMIT 1
+2023-05-31_08:35:41.00257 ERROR:  relation "postgres_partitioned_tables" does not exist at character 85
+2023-05-31_08:35:41.00257 STATEMENT:  /*application:web,db_config_name:main*/ SELECT "postgres_partitioned_tables".* FROM "postgres_partitioned_tables" WHERE (identifier = concat(current_schema(), '.', 'p_ci_runner_machine_builds')) LIMIT 1
+2023-05-31_08:35:41.00371 ERROR:  relation "postgres_partitioned_tables" does not exist at character 85
+2023-05-31_08:35:41.00372 STATEMENT:  /*application:web,db_config_name:main*/ SELECT "postgres_partitioned_tables".* FROM "postgres_partitioned_tables" WHERE (identifier = concat(current_schema(), '.', 'incident_management_pending_alert_escalations')) LIMIT 1
+2023-05-31_08:35:41.00454 ERROR:  relation "postgres_partitioned_tables" does not exist at character 85
+2023-05-31_08:35:41.00454 STATEMENT:  /*application:web,db_config_name:main*/ SELECT "postgres_partitioned_tables".* FROM "postgres_partitioned_tables" WHERE (identifier = concat(current_schema(), '.', 'incident_management_pending_issue_escalations')) LIMIT 1
+2023-05-31_08:35:41.00536 ERROR:  relation "postgres_partitioned_tables" does not exist at character 85
+2023-05-31_08:35:41.00536 STATEMENT:  /*application:web,db_config_name:main*/ SELECT "postgres_partitioned_tables".* FROM "postgres_partitioned_tables" WHERE (identifier = concat(current_schema(), '.', 'verification_codes')) LIMIT 1
+2023-05-31_08:57:49.07352 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2023-05-31_08:57:49.07354 FATAL:  Peer authentication failed for user "gitlab"
+2023-05-31_08:57:49.07355 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2023-05-31_08:57:49.12146 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2023-05-31_08:57:49.12148 FATAL:  Peer authentication failed for user "gitlab"
+2023-05-31_08:57:49.12148 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2023-05-31_08:57:49.15836 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2023-05-31_08:57:49.15838 FATAL:  Peer authentication failed for user "gitlab"
+2023-05-31_08:57:49.15838 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"

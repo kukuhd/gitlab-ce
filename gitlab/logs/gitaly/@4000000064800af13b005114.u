@@ -1,0 +1,9 @@
+{"level":"info","msg":"finished tempdir cleaner walk","storage":"default","time":"2023-06-07T02:40:43.113Z","time_ms":0}
+{"level":"info","msg":"finished tempdir cleaner walk","storage":"default","time":"2023-06-07T03:40:43.114Z","time_ms":0}
+{"level":"warning","msg":"forwarding signal","pid":303,"process":352,"signal":15,"time":"2023-06-07T04:35:33.631Z","wrapper":303}
+{"level":"warning","msg":"forwarding signal","pid":303,"process":352,"signal":18,"time":"2023-06-07T04:35:33.632Z","wrapper":303}
+{"error":"received signal \"terminated\"","level":"error","msg":"Gitaly shutdown","time":"2023-06-07T04:35:33.647Z"}
+{"level":"warning","msg":"forwarding signal","pid":303,"process":352,"signal":17,"time":"2023-06-07T04:35:33.654Z","wrapper":303}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":303,"process":352,"signal":17,"time":"2023-06-07T04:35:33.654Z","wrapper":303}
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":303,"time":"2023-06-07T04:35:33.654Z","wrapper":303}
+{"level":"error","msg":"wrapper for process shutting down","pid":303,"process":352,"time":"2023-06-07T04:35:33.763Z","wrapper":303}
