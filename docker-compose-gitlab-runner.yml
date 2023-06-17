@@ -1,0 +1,25 @@
+version: '3.7'
+services:
+  gitlab-runner-0:
+    image: gitlab/gitlab-runner:latest
+    container_name: runner-0
+    restart: always
+    volumes:
+      - '/Users/Shared/gitlab-runner/config:/etc/gitlab-runner'
+      - '/var/run/docker.sock:/var/run/docker.sock'
+
+  gitlab-runner-1:
+    image: gitlab/gitlab-runner:latest
+    container_name: runner-1
+    restart: always
+    volumes:
+      - '/Users/Shared/gitlab-runner/config:/etc/gitlab-runner'
+      - '/var/run/docker.sock:/var/run/docker.sock'
+
+  gitlab-runner-2:
+    image: gitlab/gitlab-runner:latest
+    container_name: runner-2
+    restart: always
+    volumes:
+      - '/Users/Shared/gitlab-runner/config:/etc/gitlab-runner'
+      - '/var/run/docker.sock:/var/run/docker.sock'

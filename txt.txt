@@ -1,0 +1,5 @@
+# get password
+docker exec -it gitlab-ce grep 'Password:' /etc/gitlab/initial_root_password
+
+# example register gitlab-ce-runner
+docker exec -it runner-0 gitlab-runner register --url http://10.10.200.110 --registration-token PHbj4Ct8Ch_6Z9sdktHq --clone-url http://10.10.200.110
